@@ -178,7 +178,7 @@ def output_results(venues, stats, args):
 def output_console(venues, stats, args):
     """Output to console"""
     print("🔍 OpenReview Venues Discovery Report")
-    print("="*60)
+    print("="*80)
 
     print(f"\n📊 Summary Statistics:")
     print(f"  Total venues: {stats['total']}")
@@ -186,41 +186,66 @@ def output_console(venues, stats, args):
     print(f"  Years covered: {len(stats['by_year'])}")
     print(f"  Venue types: {len(stats['by_type'])}")
 
-    print(f"\n🏛️  Top Conferences:")
-    for conf, count in sorted(stats['by_conference'].items(), key=lambda x: x[1], reverse=True)[:10]:
-        print(f"  {conf}: {count} venues")
+    # 按Conference venues和Workshop venues分别显示
+    conference_venues = [v for v in venues if v['type'] == 'Conference']
+    workshop_venues = [v for v in venues if v['type'] == 'Workshop']
 
-    print(f"\n📅 By Year:")
-    for year, count in sorted(stats['by_year'].items()):
-        if year != 'unknown':
-            print(f"  {year}: {count} venues")
+    print(f"\n🏛️ CONFERENCE VENUES ({len(conference_venues)} total):")
+    print("="*80)
 
-    print(f"\n📝 By Type:")
-    for vtype, count in sorted(stats['by_type'].items(), key=lambda x: x[1], reverse=True):
-        print(f"  {vtype}: {count} venues")
+    # 按会议分组显示Conference venues
+    conf_venues = defaultdict(list)
+    for venue in conference_venues:
+        conf_venues[venue['conference']].append(venue)
 
-    if args.verbose:
-        print(f"\n📋 Detailed Conference-Year Breakdown:")
-        for conf in sorted(stats['by_conf_year'].keys()):
+    for conf in sorted(conf_venues.keys()):
+        if conf != 'unknown':
+            venues_for_conf = conf_venues[conf]
+            print(f"\n📋 {conf} Conference Venues ({len(venues_for_conf)} venues):")
+
+            # 按年份排序
+            venues_by_year = defaultdict(list)
+            for venue_info in venues_for_conf:
+                venues_by_year[venue_info['year']].append(venue_info['venue'])
+
+            for year in sorted(venues_by_year.keys()):
+                if year != 'unknown':
+                    print(f"\n  📅 {year}:")
+                    for venue_url in sorted(venues_by_year[year]):
+                        print(f"    🔗 {venue_url}")
+
+    if args.include_workshops and workshop_venues:
+        print(f"\n\n🔧 WORKSHOP VENUES ({len(workshop_venues)} total):")
+        print("="*80)
+
+        # 按会议分组显示Workshop venues (限制显示数量)
+        workshop_conf_venues = defaultdict(list)
+        for venue in workshop_venues[:50]:  # 限制显示前50个
+            workshop_conf_venues[venue['conference']].append(venue)
+
+        for conf in sorted(workshop_conf_venues.keys()):
             if conf != 'unknown':
-                print(f"\n  {conf}:")
-                years = stats['by_conf_year'][conf]
-                for year in sorted(years.keys()):
-                    if year != 'unknown':
-                        print(f"    {year}: {years[year]} venues")
+                venues_for_conf = workshop_conf_venues[conf]
+                print(f"\n📋 {conf} Workshop Venues (showing first {len(venues_for_conf)} of {len([v for v in workshop_venues if v['conference'] == conf])}):")
 
-        print(f"\n📄 Sample Venues:")
-        grouped = defaultdict(list)
-        for venue_info in venues[:20]:  # Show first 20
-            key = f"{venue_info['conference']} {venue_info['year']} ({venue_info['type']})"
-            grouped[key].append(venue_info['venue'])
+                for venue_info in venues_for_conf[:10]:  # 每个会议最多显示10个workshop
+                    print(f"    🔗 {venue_info['venue']} ({venue_info['year']})")
 
-        for key, venue_list in list(grouped.items())[:10]:
-            print(f"\n  {key}:")
-            for venue in venue_list[:3]:  # Show max 3 per group
-                print(f"    - {venue}")
-            if len(venue_list) > 3:
-                print(f"    ... and {len(venue_list)-3} more")
+                remaining = len([v for v in workshop_venues if v['conference'] == conf]) - len(venues_for_conf[:10])
+                if remaining > 0:
+                    print(f"    ... and {remaining} more workshop venues")
+
+    print(f"\n📊 SUMMARY BY TYPE:")
+    print("="*80)
+    print(f"  🏛️ Conference venues: {len(conference_venues)}")
+    print(f"  🔧 Workshop venues: {len(workshop_venues)}")
+    print(f"  ❓ Other venues: {stats['total'] - len(conference_venues) - len(workshop_venues)}")
+
+    print(f"\n💡 RECOMMENDATIONS:")
+    print("="*80)
+    print(f"  ✅ Use the {len(conference_venues)} Conference venues for main conference papers")
+    print(f"  ⚠️ Avoid the {len(workshop_venues)} Workshop venues unless specifically needed")
+    print(f"  🎯 Focus on conferences with multiple years of data for comprehensive coverage")
 
 def output_json(venues, stats, args):
     """Output to JSON file"""
