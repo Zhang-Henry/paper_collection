@@ -11,6 +11,15 @@ pip install -r requirements.txt # install requirements
 cp config.py.example config.py # enter your OpenReview credentials in config.py
 ```
 
+### Credentials
+
+The scraper can read public data without authenticating, but providing valid
+OpenReview credentials allows it to access information that requires a logged in
+session. Credentials can be supplied through the `OPENREVIEW_EMAIL`,
+`OPENREVIEW_PASSWORD`, and `OPENREVIEW_TOKEN` environment variables or by
+editing `config.py`. If authentication fails the scraper will automatically
+fall back to anonymous access instead of exiting.
+
 ## Example
 ```python
 from scraper import Scraper

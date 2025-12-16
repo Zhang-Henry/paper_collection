@@ -1,4 +1,4 @@
-from utils import get_client, to_csv, papers_to_list
+from utils import get_client, to_csv, papers_to_list, create_output_directory
 from venue import get_venues, group_venues
 from paper import get_papers
 from filters import satisfies_any_filters
@@ -25,20 +25,78 @@ class Scraper:
     self.scrape()
   
   def scrape(self):
-    print("Getting venues...")
-    venues = get_venues(self.clients, self.confs, self.years)
-    print("Getting papers...\n")
-    papers = get_papers(self.clients, group_venues(venues, self.groups), self.only_accepted)
-    self.papers = papers
-    print("\nFiltering papers...")
-    papers = self.apply_on_papers(papers)
-    if self.selector is not None:
-      papers_list = self.selector(papers)
-    else:
-      papers_list = papers_to_list(papers)
-    print("Saving as CSV...")
-    to_csv(papers_list, self.fpath)
-    print(f"Saved at {self.fpath}")
+    # Process each conference separately
+    all_papers = {}
+
+    for conference in self.confs:
+      print(f"\n=== Processing {conference} ===")
+
+      # Get venues for this specific conference
+      print(f"Getting venues for {conference}...")
+      venues = get_venues(self.clients, [conference], self.years)
+
+      if not venues:
+        print(f"No venues found for {conference}")
+        continue
+
+      print(f"Found venues: {venues}")
+      print(f"Getting papers for {conference}...")
+
+      # Get papers for this conference
+      conf_papers = get_papers(self.clients, group_venues(venues, self.groups), self.only_accepted)
+
+      if not any(venue_papers for grouped_venues in conf_papers.values() for venue_papers in grouped_venues.values()):
+        print(f"No papers found for {conference}")
+        continue
+
+      print(f"Filtering papers for {conference}...")
+      conf_papers = self.apply_on_papers(conf_papers)
+
+      if self.selector is not None:
+        conf_papers_list = self.selector(conf_papers)
+      else:
+        conf_papers_list = papers_to_list(conf_papers)
+
+      if not conf_papers_list:
+        print(f"No papers passed filters for {conference}")
+        continue
+
+      print(f"Found {len(conf_papers_list)} papers for {conference}")
+
+      # Save papers for this conference by year
+      for year in self.years:
+        # Filter papers for this specific year
+        year_papers = [paper for paper in conf_papers_list if paper.get('year') == str(year)]
+
+        if year_papers:
+          print(f"Saving {len(year_papers)} papers for {conference} {year}...")
+          output_dir = create_output_directory(conference, year)
+          csv_path = f"{output_dir}/papers.csv"
+          to_csv(year_papers, csv_path)
+          print(f"✅ CSV saved at {csv_path}")
+
+          # Also save pkl
+          if conference not in all_papers:
+            all_papers[conference] = {}
+          all_papers[conference][year] = {
+            'conference': {f"{conference}.cc/{year}/Conference": []}
+          }
+
+          # Convert papers back to original format for pkl saving
+          for paper_dict in year_papers:
+            # Create a mock paper object for pkl saving
+            class MockPaper:
+              def __init__(self, data):
+                for key, value in data.items():
+                  setattr(self, key, value)
+
+            mock_paper = MockPaper(paper_dict)
+            all_papers[conference][year]['conference'][f"{conference}.cc/{year}/Conference"].append(mock_paper)
+        else:
+          print(f"No papers found for {conference} {year}")
+
+    # Store all papers for potential later use
+    self.papers = all_papers
   
   def apply_on_papers(self, papers):
     modified_papers = {}

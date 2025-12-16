@@ -10,12 +10,17 @@ class Extractor:
   def extract(self, paper):
     trimmed_paper = {}
     for field in self.fields:
-      trimmed_paper[field] = paper.__getattribute__(field)
+      trimmed_paper[field] = getattr(paper, field, None)
     for subfield, fields in self.subfields.items():
       if self.include_subfield:
         trimmed_paper[subfield] = {}
+      subfield_data = getattr(paper, subfield, {})
       for field in fields:
-        field_value = paper.__getattribute__(subfield)[field]
+        if isinstance(subfield_data, dict) and field in subfield_data:
+          field_value = subfield_data[field]
+        else:
+          field_value = None  # 如果字段不存在，设为None
+
         if self.include_subfield:
           trimmed_paper[subfield][field] = field_value
         else:
