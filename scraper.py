@@ -1,4 +1,4 @@
-from utils import get_client, to_csv, papers_to_list, create_output_directory, setup_logging
+from utils import get_client, to_csv, papers_to_list, create_output_directory, setup_logging, check_existing_data
 from venue import get_venues, group_venues
 from paper import get_papers
 from filters import satisfies_any_filters
@@ -6,7 +6,7 @@ import logging
 
 
 class Scraper:
-  def __init__(self, conferences, years, keywords, extractor, fpath, selector=None, fns=[], groups=['conference'], only_accepted=True):
+  def __init__(self, conferences, years, keywords, extractor, fpath, selector=None, fns=[], groups=['conference'], only_accepted=True, skip_existing=True):
     # fns is a list of functions that can be specified by the user each taking in a single paper object as a parameter and returning the modified paper
     self.confs = conferences
     self.years = years
@@ -18,6 +18,7 @@ class Scraper:
     self.only_accepted = only_accepted
     self.selector = selector
     self.filters = []
+    self.skip_existing = skip_existing
 
     # Setup logging
     self.logger = setup_logging()
@@ -45,7 +46,24 @@ class Scraper:
       self.logger.info(f"Processing {conference} ({i}/{len(self.confs)})")
       self.logger.info(f"{'='*50}")
 
-      # Get venues for this specific conference
+      # Check if we should skip existing data
+      years_to_process = self.years.copy()  # Default: process all years
+
+      if self.skip_existing:
+        years_to_process = []
+        for year in self.years:
+          if not check_existing_data(conference, year):
+            years_to_process.append(year)
+
+        if not years_to_process:
+          self.logger.info(f"⏭️  All data already exists for {conference}, skipping...")
+          continue
+
+        self.logger.info(f"📋 Will process years {years_to_process} for {conference} (skip_existing=True)")
+      else:
+        self.logger.info(f"📋 Will process all years {years_to_process} for {conference} (skip_existing=False)")
+
+      # Get venues for this specific conference (use original years for venue discovery)
       self.logger.info(f"Getting venues for {conference}...")
       venues = get_venues(self.clients, [conference], self.years)
 
@@ -92,8 +110,8 @@ class Scraper:
 
       self.logger.info(f"✅ {len(conf_papers_list)} papers passed filters for {conference}")
 
-      # Save papers for this conference by year
-      for year in self.years:
+      # Save papers for this conference by year (only for years that need processing)
+      for year in years_to_process:
         # Filter papers for this specific year
         year_papers = [paper for paper in conf_papers_list if paper.get('year') == str(year)]
 

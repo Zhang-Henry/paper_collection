@@ -87,6 +87,31 @@ def create_output_directory(conference, year, base_dir='data'):
   os.makedirs(output_dir, exist_ok=True)
   return output_dir
 
+def check_existing_data(conference, year, base_dir='data'):
+  """Check if data already exists for a conference-year combination"""
+  import logging
+  logger = logging.getLogger(__name__)
+
+  output_dir = os.path.join(base_dir, conference, str(year))
+  csv_path = os.path.join(output_dir, 'papers.csv')
+
+  if os.path.exists(csv_path):
+    # Check if CSV has content (more than just header)
+    try:
+      with open(csv_path, 'r') as f:
+        lines = f.readlines()
+        if len(lines) > 1:  # Header + at least one data row
+          logger.info(f"⏭️  Existing data found for {conference} {year}: {len(lines)-1} papers")
+          return True
+        else:
+          logger.info(f"📄 Empty file found for {conference} {year}, will re-download")
+          return False
+    except Exception as e:
+      logger.warning(f"⚠️  Error reading existing file for {conference} {year}: {e}")
+      return False
+
+  return False
+
 def to_csv(papers_list, fpath):
   def write_csv():
     # Ensure directory exists only if there's a directory path
