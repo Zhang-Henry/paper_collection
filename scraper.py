@@ -1,7 +1,8 @@
-from utils import get_client, to_csv, papers_to_list, create_output_directory
+from utils import get_client, to_csv, papers_to_list, create_output_directory, setup_logging
 from venue import get_venues, group_venues
 from paper import get_papers
 from filters import satisfies_any_filters
+import logging
 
 
 class Scraper:
@@ -17,6 +18,17 @@ class Scraper:
     self.only_accepted = only_accepted
     self.selector = selector
     self.filters = []
+
+    # Setup logging
+    self.logger = setup_logging()
+    self.logger.info("="*60)
+    self.logger.info("Starting OpenReview Scraper")
+    self.logger.info(f"Conferences: {conferences}")
+    self.logger.info(f"Years: {years}")
+    self.logger.info(f"Keywords: {keywords}")
+    self.logger.info(f"Output file: {fpath}")
+    self.logger.info("="*60)
+
     # Get both API v1 and API v2 clients
     self.clients = get_client()
     self.papers = None # this'll contain all the papers returned from apply_on_papers
@@ -28,29 +40,46 @@ class Scraper:
     # Process each conference separately
     all_papers = {}
 
-    for conference in self.confs:
-      print(f"\n=== Processing {conference} ===")
+    for i, conference in enumerate(self.confs, 1):
+      self.logger.info(f"\n{'='*50}")
+      self.logger.info(f"Processing {conference} ({i}/{len(self.confs)})")
+      self.logger.info(f"{'='*50}")
 
       # Get venues for this specific conference
-      print(f"Getting venues for {conference}...")
+      self.logger.info(f"Getting venues for {conference}...")
       venues = get_venues(self.clients, [conference], self.years)
 
       if not venues:
-        print(f"No venues found for {conference}")
+        self.logger.warning(f"❌ No venues found for {conference}")
         continue
 
-      print(f"Found venues: {venues}")
-      print(f"Getting papers for {conference}...")
+      self.logger.info(f"✅ Found venues for {conference}: {venues}")
 
       # Get papers for this conference
-      conf_papers = get_papers(self.clients, group_venues(venues, self.groups), self.only_accepted)
-
-      if not any(venue_papers for grouped_venues in conf_papers.values() for venue_papers in grouped_venues.values()):
-        print(f"No papers found for {conference}")
+      self.logger.info(f"Getting papers from {len(venues)} venues...")
+      try:
+        conf_papers = get_papers(self.clients, group_venues(venues, self.groups), self.only_accepted)
+      except Exception as e:
+        self.logger.error(f"❌ Error getting papers for {conference}: {e}")
         continue
 
-      print(f"Filtering papers for {conference}...")
-      conf_papers = self.apply_on_papers(conf_papers)
+      # Count total papers before filtering
+      total_papers = sum(len(venue_papers) for grouped_venues in conf_papers.values()
+                        for venue_papers in grouped_venues.values())
+
+      if total_papers == 0:
+        self.logger.warning(f"❌ No papers found for {conference}")
+        continue
+
+      self.logger.info(f"Found {total_papers} total papers for {conference}")
+
+      # Apply filters
+      self.logger.info(f"Applying filters (keywords: {self.keywords})...")
+      try:
+        conf_papers = self.apply_on_papers(conf_papers)
+      except Exception as e:
+        self.logger.error(f"❌ Error applying filters for {conference}: {e}")
+        continue
 
       if self.selector is not None:
         conf_papers_list = self.selector(conf_papers)
@@ -58,10 +87,10 @@ class Scraper:
         conf_papers_list = papers_to_list(conf_papers)
 
       if not conf_papers_list:
-        print(f"No papers passed filters for {conference}")
+        self.logger.warning(f"❌ No papers passed filters for {conference}")
         continue
 
-      print(f"Found {len(conf_papers_list)} papers for {conference}")
+      self.logger.info(f"✅ {len(conf_papers_list)} papers passed filters for {conference}")
 
       # Save papers for this conference by year
       for year in self.years:
@@ -69,34 +98,42 @@ class Scraper:
         year_papers = [paper for paper in conf_papers_list if paper.get('year') == str(year)]
 
         if year_papers:
-          print(f"Saving {len(year_papers)} papers for {conference} {year}...")
+          self.logger.info(f"📄 Saving {len(year_papers)} papers for {conference} {year}...")
           output_dir = create_output_directory(conference, year)
           csv_path = f"{output_dir}/papers.csv"
-          to_csv(year_papers, csv_path)
-          print(f"✅ CSV saved at {csv_path}")
 
-          # Also save pkl
-          if conference not in all_papers:
-            all_papers[conference] = {}
-          all_papers[conference][year] = {
-            'conference': {f"{conference}.cc/{year}/Conference": []}
-          }
+          try:
+            to_csv(year_papers, csv_path)
+            self.logger.info(f"✅ CSV saved successfully: {csv_path}")
 
-          # Convert papers back to original format for pkl saving
-          for paper_dict in year_papers:
-            # Create a mock paper object for pkl saving
-            class MockPaper:
-              def __init__(self, data):
-                for key, value in data.items():
-                  setattr(self, key, value)
+            # Also save pkl data structure
+            if conference not in all_papers:
+              all_papers[conference] = {}
+            all_papers[conference][year] = {
+              'conference': {f"{conference}.cc/{year}/Conference": []}
+            }
 
-            mock_paper = MockPaper(paper_dict)
-            all_papers[conference][year]['conference'][f"{conference}.cc/{year}/Conference"].append(mock_paper)
+            # Convert papers back to original format for pkl saving
+            for paper_dict in year_papers:
+              # Create a mock paper object for pkl saving
+              class MockPaper:
+                def __init__(self, data):
+                  for key, value in data.items():
+                    setattr(self, key, value)
+
+              mock_paper = MockPaper(paper_dict)
+              all_papers[conference][year]['conference'][f"{conference}.cc/{year}/Conference"].append(mock_paper)
+
+          except Exception as e:
+            self.logger.error(f"❌ Error saving papers for {conference} {year}: {e}")
         else:
-          print(f"No papers found for {conference} {year}")
+          self.logger.info(f"📄 No papers found for {conference} {year}")
 
     # Store all papers for potential later use
     self.papers = all_papers
+    self.logger.info("\n" + "="*60)
+    self.logger.info("Scraping completed successfully!")
+    self.logger.info("="*60)
   
   def apply_on_papers(self, papers):
     modified_papers = {}

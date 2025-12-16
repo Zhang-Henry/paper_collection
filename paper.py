@@ -52,8 +52,10 @@ def get_grouped_venue_papers(clients, grouped_venue, only_accepted):
     
     papers[venue] += merged_submissions
     
-    print(venue)
-    print(f'Number of papers: {len(merged_submissions)}')
+    import logging
+    logger = logging.getLogger(__name__)
+    logger.info(f"Venue: {venue}")
+    logger.info(f'Number of papers: {len(merged_submissions)}')
   
   return papers
 

@@ -3,7 +3,30 @@ import csv
 from config import EMAIL, PASSWORD, TOKEN
 import dill
 import os
+import logging
+import datetime
 
+
+def setup_logging(log_level=logging.INFO):
+    """Setup logging configuration"""
+    os.makedirs('logs', exist_ok=True)
+
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+    log_file = f"logs/scraper_{timestamp}.log"
+
+    # Configure logging
+    logging.basicConfig(
+        level=log_level,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler(log_file, encoding='utf-8'),
+            logging.StreamHandler()  # Also output to console
+        ]
+    )
+
+    logger = logging.getLogger(__name__)
+    logger.info(f"Logging initialized. Log file: {log_file}")
+    return logger
 
 def _auth_kwargs():
     if TOKEN:
