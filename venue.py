@@ -1,4 +1,4 @@
-def get_venues(clients, confs, years):
+def get_venues(clients, confs, years, include_workshops=False):
   """
   Get venues from both API v1 and API v2 clients and merge the results.
 
@@ -6,6 +6,7 @@ def get_venues(clients, confs, years):
     clients: Tuple of (client_v1, client_v2)
     confs: List of conference names
     years: List of years
+    include_workshops: Whether to include workshop venues
 
   Returns:
     List of venue IDs
@@ -50,13 +51,56 @@ def get_venues(clients, confs, years):
   venues = list(venues)
   logger.info(f"Venues matching years {years}: {len(venues)}")
 
-  reqd_venues = []
+  # Collect all matching venues first, then prioritize
+  all_matched_venues = {}
+
   for venue in venues:
     for conf in confs:
       if conf.lower() in venue.lower():
-        reqd_venues.append(venue)
-        logger.info(f"✅ Matched venue for {conf}: {venue}")
+        if conf not in all_matched_venues:
+          all_matched_venues[conf] = {
+            'conference': [],
+            'workshop': [],
+            'other': []
+          }
+
+        # Categorize venues
+        if 'conference' in venue.lower():
+          all_matched_venues[conf]['conference'].append(venue)
+          logger.info(f"🏛️  Conference venue for {conf}: {venue}")
+        elif 'workshop' in venue.lower():
+          all_matched_venues[conf]['workshop'].append(venue)
+          logger.info(f"🔧 Workshop venue for {conf}: {venue}")
+        else:
+          all_matched_venues[conf]['other'].append(venue)
+          logger.info(f"❓ Other venue for {conf}: {venue}")
         break
+
+  # Apply priority selection
+  reqd_venues = []
+  for conf in confs:
+    if conf in all_matched_venues:
+      venues_for_conf = all_matched_venues[conf]
+
+      # Priority 1: Conference venues
+      if venues_for_conf['conference']:
+        selected_venues = venues_for_conf['conference']
+        logger.info(f"🎯 Selected {len(selected_venues)} Conference venues for {conf}")
+        reqd_venues.extend(selected_venues)
+
+      # Priority 2: Other venues (if no conference venues found)
+      elif venues_for_conf['other']:
+        selected_venues = venues_for_conf['other']
+        logger.info(f"🎯 Selected {len(selected_venues)} Other venues for {conf} (no Conference venues found)")
+        reqd_venues.extend(selected_venues)
+
+      # Priority 3: Workshop venues (as last resort)
+      elif venues_for_conf['workshop']:
+        selected_venues = venues_for_conf['workshop'][:3]  # Limit to first 3 workshops
+        logger.info(f"🎯 Selected {len(selected_venues)} Workshop venues for {conf} (no main venues found)")
+        reqd_venues.extend(selected_venues)
+
+      logger.info(f"📊 {conf} venue summary: {len(venues_for_conf['conference'])} Conference, {len(venues_for_conf['workshop'])} Workshop, {len(venues_for_conf['other'])} Other")
 
   reqd_venues = map(filter_year, reqd_venues)
   reqd_venues = list(filter(lambda venue: venue is not None, reqd_venues))
