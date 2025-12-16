@@ -1,0 +1,716 @@
+2025-12-16 17:03:20,002 - INFO - Logging initialized. Log file: logs/scraper_20251216_170320.log
+2025-12-16 17:03:20,002 - INFO - ============================================================
+2025-12-16 17:03:20,002 - INFO - Starting OpenReview Scraper
+2025-12-16 17:03:20,002 - INFO - Conferences: ['ICLR', 'ICML', 'NeurIPS', 'AAAI', 'CVPR', 'ECCV', 'ICCV', 'ACL', 'EMNLP']
+2025-12-16 17:03:20,002 - INFO - Years: ['2025', '2024', '2023']
+2025-12-16 17:03:20,002 - INFO - Keywords: ['Agent', 'Data Synthesis', 'Synthetic', 'Trajectory']
+2025-12-16 17:03:20,002 - INFO - Output file: example.csv
+2025-12-16 17:03:20,002 - INFO - ============================================================
+2025-12-16 17:03:20,003 - INFO - 
+==================================================
+2025-12-16 17:03:20,003 - INFO - Processing ICLR (1/9)
+2025-12-16 17:03:20,003 - INFO - ==================================================
+2025-12-16 17:03:20,006 - INFO - ⏭️  Existing data found for ICLR 2025: 525 papers
+2025-12-16 17:03:20,008 - INFO - ⏭️  Existing data found for ICLR 2024: 353 papers
+2025-12-16 17:03:20,013 - INFO - ⏭️  Existing data found for ICLR 2023: 1174 papers
+2025-12-16 17:03:20,014 - INFO - ⏭️  All data already exists for ICLR, skipping...
+2025-12-16 17:03:20,014 - INFO - 
+==================================================
+2025-12-16 17:03:20,014 - INFO - Processing ICML (2/9)
+2025-12-16 17:03:20,014 - INFO - ==================================================
+2025-12-16 17:03:20,018 - INFO - ⏭️  Existing data found for ICML 2025: 448 papers
+2025-12-16 17:03:20,020 - INFO - ⏭️  Existing data found for ICML 2024: 299 papers
+2025-12-16 17:03:20,023 - INFO - ⏭️  Existing data found for ICML 2023: 450 papers
+2025-12-16 17:03:20,023 - INFO - ⏭️  All data already exists for ICML, skipping...
+2025-12-16 17:03:20,023 - INFO - 
+==================================================
+2025-12-16 17:03:20,023 - INFO - Processing NeurIPS (3/9)
+2025-12-16 17:03:20,023 - INFO - ==================================================
+2025-12-16 17:03:20,027 - INFO - ⏭️  Existing data found for NeurIPS 2025: 813 papers
+2025-12-16 17:03:20,030 - INFO - ⏭️  Existing data found for NeurIPS 2024: 447 papers
+2025-12-16 17:03:20,033 - INFO - ⏭️  Existing data found for NeurIPS 2023: 772 papers
+2025-12-16 17:03:20,033 - INFO - ⏭️  All data already exists for NeurIPS, skipping...
+2025-12-16 17:03:20,033 - INFO - 
+==================================================
+2025-12-16 17:03:20,033 - INFO - Processing AAAI (4/9)
+2025-12-16 17:03:20,033 - INFO - ==================================================
+2025-12-16 17:03:20,033 - INFO - 📋 Will process years ['2025', '2024', '2023'] for AAAI (skip_existing=True)
+2025-12-16 17:03:20,033 - INFO - Getting venues for AAAI...
+2025-12-16 17:03:20,033 - INFO - Fetching venues from API v1...
+2025-12-16 17:03:21,383 - INFO - Found 3242 venues from API v1
+2025-12-16 17:03:21,383 - INFO - Fetching venues from API v2...
+2025-12-16 17:03:22,435 - INFO - Found 3242 venues from API v2
+2025-12-16 17:03:22,437 - INFO - Total unique venues: 3242
+2025-12-16 17:03:22,439 - INFO - Venues matching years ['2025', '2024', '2023']: 2351
+2025-12-16 17:03:22,439 - INFO - ❓ Other venue for AAAI: AAAI.org/2025/Bridge/AI4SC
+2025-12-16 17:03:22,439 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/TIKA
+2025-12-16 17:03:22,439 - INFO - ❓ Other venue for AAAI: AAAI.org/2024/Bridge/AI4Design
+2025-12-16 17:03:22,439 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/WMAC
+2025-12-16 17:03:22,439 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/AIFinSI
+2025-12-16 17:03:22,440 - INFO - ❓ Other venue for AAAI: AAAI.org/2023/Spring_Symposium_Series/EDGeS
+2025-12-16 17:03:22,440 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/AIA
+2025-12-16 17:03:22,440 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/LM4Plan
+2025-12-16 17:03:22,440 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/SIAI-Redi
+2025-12-16 17:03:22,440 - INFO - ❓ Other venue for AAAI: AAAI.org/2024/Bridge/CCBridge
+2025-12-16 17:03:22,440 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/HCOMP/2023/Workshop/wikiKI
+2025-12-16 17:03:22,440 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/LLM-CP
+2025-12-16 17:03:22,440 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/GenAI4Health
+2025-12-16 17:03:22,440 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/PDLM
+2025-12-16 17:03:22,440 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/Imageomics
+2025-12-16 17:03:22,440 - INFO - ❓ Other venue for AAAI: AAAI.org/2025/Bridge/Continual_Causality
+2025-12-16 17:03:22,440 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/ToM4AI
+2025-12-16 17:03:22,440 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/ASEA
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/NeurMAD
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/KnowFM
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/PRL
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/AICT
+2025-12-16 17:03:22,441 - INFO - ❓ Other venue for AAAI: AAAI.org/2023/Bridge/AICS
+2025-12-16 17:03:22,441 - INFO - ❓ Other venue for AAAI: AAAI.org/2025/Artificial_Intelligence_for_Social_Impact_Track
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/AI4UP
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/BDAI
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/PSS
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/MARW
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/SAI
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/AI4ED
+2025-12-16 17:03:22,441 - INFO - ❓ Other venue for AAAI: AAAI.org/2025/AI_Alignment_Track
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/AIBED
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/NuCLeaR
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/XAI4Sci
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/AI4Research
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2023/Workshop/MLmDS
+2025-12-16 17:03:22,441 - INFO - ❓ Other venue for AAAI: AAAI.org/2025/Innovative_Applications_of_AI
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/AI4WCN
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2023/Workshop/creativeAI
+2025-12-16 17:03:22,441 - INFO - ❓ Other venue for AAAI: AAAI.org/2024/Spring_Symposium_Series/Clinical_FMs
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2023/Workshop/AI4EW
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2023/Workshop/AIAFS
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/AIGOV
+2025-12-16 17:03:22,441 - INFO - 🏛️  Conference venue for AAAI: AAAI.org/2025/Conference
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/CompJobs
+2025-12-16 17:03:22,441 - INFO - ❓ Other venue for AAAI: AAAI.org/2025/Demonstration_Program
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/EcoSys
+2025-12-16 17:03:22,441 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/iRAISE
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/XAI4DRL
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/MarketsGenAI
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/CAIHu
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/GenPlan
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/GoodData
+2025-12-16 17:03:22,442 - INFO - ❓ Other venue for AAAI: AAAI.org/2025/Bridge/CAIHU
+2025-12-16 17:03:22,442 - INFO - ❓ Other venue for AAAI: AAAI.org/2023/Bridge/CCBridge
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/PubLLM
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/KG4HEJSS
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/AI4EDU
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2024/Workshop/ML4CMH
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/DATASAFE
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/SIAI-Redi_SPP
+2025-12-16 17:03:22,442 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/CoLoRAI
+2025-12-16 17:03:22,442 - INFO - ❓ Other venue for AAAI: AAAI.org/2025/Bridge/CogSci-AI_Neuro-Symbolic
+2025-12-16 17:03:22,443 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/MALTA
+2025-12-16 17:03:22,443 - INFO - 🔧 Workshop venue for AAAI: AAAI.org/2025/Workshop/AICS
+2025-12-16 17:03:22,443 - INFO - ❓ Other venue for AAAI: AAAI.org/2023/Spring_Symposium_Series/ACTD
+2025-12-16 17:03:22,443 - INFO - 🎯 Selected 1 Conference venues for AAAI
+2025-12-16 17:03:22,443 - INFO - 📊 AAAI venue summary: 1 Conference, 50 Workshop, 15 Other
+2025-12-16 17:03:22,443 - INFO - Final venues for conferences ['AAAI']: ['AAAI.org/2025/Conference']
+2025-12-16 17:03:22,443 - INFO - ✅ Found venues for AAAI: ['AAAI.org/2025/Conference']
+2025-12-16 17:03:22,443 - INFO - Getting papers from 1 venues...
+2025-12-16 17:03:23,057 - INFO - Venue: AAAI.org/2025/Conference
+2025-12-16 17:03:23,058 - INFO - Number of papers: 0
+2025-12-16 17:03:23,058 - WARNING - ❌ No papers found for AAAI
+2025-12-16 17:03:23,058 - INFO - 
+==================================================
+2025-12-16 17:03:23,058 - INFO - Processing CVPR (5/9)
+2025-12-16 17:03:23,058 - INFO - ==================================================
+2025-12-16 17:03:23,058 - INFO - 📋 Will process years ['2025', '2024', '2023'] for CVPR (skip_existing=True)
+2025-12-16 17:03:23,058 - INFO - Getting venues for CVPR...
+2025-12-16 17:03:23,058 - INFO - Fetching venues from API v1...
+2025-12-16 17:03:23,552 - INFO - Found 3242 venues from API v1
+2025-12-16 17:03:23,552 - INFO - Fetching venues from API v2...
+2025-12-16 17:03:24,037 - INFO - Found 3242 venues from API v2
+2025-12-16 17:03:24,038 - INFO - Total unique venues: 3242
+2025-12-16 17:03:24,039 - INFO - Venues matching years ['2025', '2024', '2023']: 2351
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/HuMoGen
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2023/Workshop/SSAD
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/CVEU_Extended_Abstract
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/PBDL
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/POETS_2nd_Round
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/WorldModelBench
+2025-12-16 17:03:24,039 - INFO - 🏛️  Conference venue for CVPR: thecvf.com/CVPR/2023/Conference
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/EquiVision
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/OpenSUN3D
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/DDADS_Track_1
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/CVinW
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/CV4Animals
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/4DV
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/DCAMI_archival
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/SynData4CV
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/V4A
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/TMM-OpenWorld
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/3D-LLM_VLA
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/MAT_Community
+2025-12-16 17:03:24,039 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/DD
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/CVEU
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/V4A
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/WDFM-AD
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/MM4Mat
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/POETS
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/H2R
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/VLADR
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/Responsible_Data
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/PBVS
+2025-12-16 17:03:24,040 - INFO - 🏛️  Conference venue for CVPR: thecvf.com/CVPR/2025/Conference
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/CORR
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/MIV
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/GRAIL
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/DDADS
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/SyntaGen
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/VLMs4All
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/MMFM-BIOMED
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/SynData4CV
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/UnCV
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/MedSAMonLaptop
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/GMCV
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/CV4MR
+2025-12-16 17:03:24,040 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop_Proposals
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/VisCon
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/CV4Animals
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2023/Workshop/AI4CC
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/SyntaGen
+2025-12-16 17:03:24,041 - INFO - ❓ Other venue for CVPR: thecvf.com/CVPR/2025/Tutorial
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/ViSCALE
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/RHOBIN
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2023/Workshop/NFVLR
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/EAI
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/IViSE
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/WAD
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/AGC
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/Humanoid_Agents
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/VideoLLMs
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/HuMoGen
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/EAI
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/DriveX
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/CVDD
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/PVUW
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/DemoDiv
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/MAT
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/EDGE
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/NFBCC
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/CV4MR
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/DCAMI
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/PV
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/AI4CC
+2025-12-16 17:03:24,041 - INFO - 🏛️  Conference venue for CVPR: thecvf.com/CVPR/2024/Conference
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/BASE
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/MTF
+2025-12-16 17:03:24,041 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/MEIS
+2025-12-16 17:03:24,042 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/MIV_Proceedings_Track
+2025-12-16 17:03:24,042 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2023/Workshop/EAI
+2025-12-16 17:03:24,042 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2024/Workshop/DDADS
+2025-12-16 17:03:24,042 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/Advml
+2025-12-16 17:03:24,042 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/MedSegFM
+2025-12-16 17:03:24,042 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/FMEA
+2025-12-16 17:03:24,042 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2023/Workshop/GCV
+2025-12-16 17:03:24,042 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/EMACS
+2025-12-16 17:03:24,042 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/Robo-3Dvlm
+2025-12-16 17:03:24,042 - INFO - 🔧 Workshop venue for CVPR: thecvf.com/CVPR/2025/Workshop/EVAL-FoMo-2
+2025-12-16 17:03:24,042 - INFO - 🎯 Selected 3 Conference venues for CVPR
+2025-12-16 17:03:24,042 - INFO - 📊 CVPR venue summary: 3 Conference, 80 Workshop, 1 Other
+2025-12-16 17:03:24,042 - INFO - Final venues for conferences ['CVPR']: ['thecvf.com/CVPR/2023/Conference', 'thecvf.com/CVPR/2025/Conference', 'thecvf.com/CVPR/2024/Conference']
+2025-12-16 17:03:24,043 - INFO - ✅ Found venues for CVPR: ['thecvf.com/CVPR/2023/Conference', 'thecvf.com/CVPR/2025/Conference', 'thecvf.com/CVPR/2024/Conference']
+2025-12-16 17:03:24,043 - INFO - Getting papers from 3 venues...
+2025-12-16 17:03:24,662 - INFO - Venue: thecvf.com/CVPR/2023/Conference
+2025-12-16 17:03:24,663 - INFO - Number of papers: 0
+2025-12-16 17:03:25,158 - INFO - Venue: thecvf.com/CVPR/2025/Conference
+2025-12-16 17:03:25,158 - INFO - Number of papers: 0
+2025-12-16 17:03:25,820 - INFO - Venue: thecvf.com/CVPR/2024/Conference
+2025-12-16 17:03:25,820 - INFO - Number of papers: 0
+2025-12-16 17:03:25,820 - WARNING - ❌ No papers found for CVPR
+2025-12-16 17:03:25,820 - INFO - 
+==================================================
+2025-12-16 17:03:25,820 - INFO - Processing ECCV (6/9)
+2025-12-16 17:03:25,820 - INFO - ==================================================
+2025-12-16 17:03:25,821 - INFO - 📋 Will process years ['2025', '2024', '2023'] for ECCV (skip_existing=True)
+2025-12-16 17:03:25,821 - INFO - Getting venues for ECCV...
+2025-12-16 17:03:25,821 - INFO - Fetching venues from API v1...
+2025-12-16 17:03:26,299 - INFO - Found 3242 venues from API v1
+2025-12-16 17:03:26,300 - INFO - Fetching venues from API v2...
+2025-12-16 17:03:26,784 - INFO - Found 3242 venues from API v2
+2025-12-16 17:03:26,785 - INFO - Total unique venues: 3242
+2025-12-16 17:03:26,786 - INFO - Venues matching years ['2025', '2024', '2023']: 2351
+2025-12-16 17:03:26,786 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/DarkSide_of_GenAIs_and_Beyond
+2025-12-16 17:03:26,786 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/EVAL-FoMo
+2025-12-16 17:03:26,786 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/EEC
+2025-12-16 17:03:26,786 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/BIC
+2025-12-16 17:03:26,786 - INFO - 🏛️  Conference venue for ECCV: thecvf.com/ECCV/2024/Conference
+2025-12-16 17:03:26,786 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/AI4VA
+2025-12-16 17:03:26,786 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/HCV
+2025-12-16 17:03:26,786 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/eXCV_Non-Proceedings
+2025-12-16 17:03:26,786 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/Wild3D
+2025-12-16 17:03:26,786 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/NFBCC
+2025-12-16 17:03:26,786 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/ILR
+2025-12-16 17:03:26,786 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/eXCV
+2025-12-16 17:03:26,787 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/UnCV
+2025-12-16 17:03:26,787 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/ROAM
+2025-12-16 17:03:26,787 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/HumanFoundation
+2025-12-16 17:03:26,787 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/MAAS
+2025-12-16 17:03:26,787 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/DD_Challenge
+2025-12-16 17:03:26,787 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/AVGenL
+2025-12-16 17:03:26,787 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/W-CODA
+2025-12-16 17:03:26,787 - INFO - 🔧 Workshop venue for ECCV: thecvf.com/ECCV/2024/Workshop/W-CODA_Abstract_Paper_Track
+2025-12-16 17:03:26,787 - INFO - 🎯 Selected 1 Conference venues for ECCV
+2025-12-16 17:03:26,787 - INFO - 📊 ECCV venue summary: 1 Conference, 19 Workshop, 0 Other
+2025-12-16 17:03:26,787 - INFO - Final venues for conferences ['ECCV']: ['thecvf.com/ECCV/2024/Conference']
+2025-12-16 17:03:26,787 - INFO - ✅ Found venues for ECCV: ['thecvf.com/ECCV/2024/Conference']
+2025-12-16 17:03:26,787 - INFO - Getting papers from 1 venues...
+2025-12-16 17:03:27,256 - INFO - Venue: thecvf.com/ECCV/2024/Conference
+2025-12-16 17:03:27,256 - INFO - Number of papers: 0
+2025-12-16 17:03:27,256 - WARNING - ❌ No papers found for ECCV
+2025-12-16 17:03:27,256 - INFO - 
+==================================================
+2025-12-16 17:03:27,256 - INFO - Processing ICCV (7/9)
+2025-12-16 17:03:27,256 - INFO - ==================================================
+2025-12-16 17:03:27,256 - INFO - 📋 Will process years ['2025', '2024', '2023'] for ICCV (skip_existing=True)
+2025-12-16 17:03:27,256 - INFO - Getting venues for ICCV...
+2025-12-16 17:03:27,256 - INFO - Fetching venues from API v1...
+2025-12-16 17:03:27,757 - INFO - Found 3242 venues from API v1
+2025-12-16 17:03:27,757 - INFO - Fetching venues from API v2...
+2025-12-16 17:03:28,293 - INFO - Found 3242 venues from API v2
+2025-12-16 17:03:28,294 - INFO - Total unique venues: 3242
+2025-12-16 17:03:28,295 - INFO - Venues matching years ['2025', '2024', '2023']: 2351
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/SP4V
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2023/Workshop/TNGCV_DataComp
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/Responsible_Imaging_Non-Proceedings
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/MRR
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2023/Workshop/BIC
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/Wild3D
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/eXCV_Proceedings_Track
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/gDT-IV
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/SEA
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/APAI
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/AISTORY
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/WCLOP
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/ECLR
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/MIPI
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CVAUI-AAMVEM
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CV4E_Non-Archival
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2023/Workshop/TNGCV_General
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/BiVision
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/RIWM
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/HiGen
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/AMFG
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CV4BIOM
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/FAS
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/HRSIC
+2025-12-16 17:03:28,295 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/APAH
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/SAUAFG
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/RetailVision
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/2COOOL_Non-Archival_Track
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/HiCV_Extended_Abstracts
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/E2E3D
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/ESR
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2023/Workshop/CVAAD
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CDEL_Non-Archival
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CVPM
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/VQualA
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/DRL4Real
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/2COOOL
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/X-Sense
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/MCL
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/SVU
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/DriveX
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CV4E
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/DeepID
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/MARS2
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/3D-VAST
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/HiCV
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CV4DC_Proceedings
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/WDFM-AD
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/MMRAgI
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/HANDS
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/eXCV_Non-Proceedings_Track
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/Responsible_Imaging
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/VLM3D
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/MMFM4
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CVAM
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/LongVid-Foundations
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/FoundGen-Bio
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/LIMIT
+2025-12-16 17:03:28,296 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/GAIA
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/MemVis
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/RIWM_Non_Archival
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2023/Workshop/UnCV
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CV4DC_Non-Proceedings
+2025-12-16 17:03:28,297 - INFO - 🏛️  Conference venue for ICCV: thecvf.com/ICCV/2025/Conference
+2025-12-16 17:03:28,297 - INFO - 🏛️  Conference venue for ICCV: ICCV/2023/Conference
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CLVision-Non-Archival
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/P13N
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/BIC
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/I-HFM
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CVAMD
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/FAILED
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CroCoDL
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/MIRA
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/NeuSLAM
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CLVision-Proceedings
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/ArtMetrics
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/OpenSUN3D
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/EVW
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/Findings
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/ASI_Non-Archival
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/VADH
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/UniLight
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/WCCA
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/gDT-IV_Non-Archival
+2025-12-16 17:03:28,297 - INFO - ❓ Other venue for ICCV: thecvf.com/ICCV/2025/DC
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/SafeMM-AI
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CV4A11y
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/MMR
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/AI4VA
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/VisionDocs
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/R6D
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/MMFMC
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/CDEL
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/I-HFM_Non-Archival
+2025-12-16 17:03:28,297 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/Gen4AVC
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/BISCUIT
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/T2FM
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/DataCV
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/ASI
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/GDUG
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/HiGen_Non_Proceeding_Track
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/U-and-ME
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/LongVid-Foundations_Non-Archival
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/BEW
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/NeVi
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/LSVOS
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/KnowledgeMR
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/HANDS_Non-Proceedings
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2023/Workshop/VIPriors
+2025-12-16 17:03:28,298 - INFO - 🔧 Workshop venue for ICCV: thecvf.com/ICCV/2025/Workshop/MCL_Non-Proceedings
+2025-12-16 17:03:28,298 - INFO - 🎯 Selected 2 Conference venues for ICCV
+2025-12-16 17:03:28,298 - INFO - 📊 ICCV venue summary: 2 Conference, 107 Workshop, 1 Other
+2025-12-16 17:03:28,298 - INFO - Final venues for conferences ['ICCV']: ['thecvf.com/ICCV/2025/Conference', 'ICCV/2023/Conference']
+2025-12-16 17:03:28,298 - INFO - ✅ Found venues for ICCV: ['thecvf.com/ICCV/2025/Conference', 'ICCV/2023/Conference']
+2025-12-16 17:03:28,298 - INFO - Getting papers from 2 venues...
+2025-12-16 17:03:28,776 - INFO - Venue: thecvf.com/ICCV/2025/Conference
+2025-12-16 17:03:28,776 - INFO - Number of papers: 0
+2025-12-16 17:03:29,248 - INFO - Venue: ICCV/2023/Conference
+2025-12-16 17:03:29,249 - INFO - Number of papers: 0
+2025-12-16 17:03:29,249 - WARNING - ❌ No papers found for ICCV
+2025-12-16 17:03:29,249 - INFO - 
+==================================================
+2025-12-16 17:03:29,249 - INFO - Processing ACL (8/9)
+2025-12-16 17:03:29,249 - INFO - ==================================================
+2025-12-16 17:03:29,249 - INFO - 📋 Will process years ['2025', '2024', '2023'] for ACL (skip_existing=True)
+2025-12-16 17:03:29,249 - INFO - Getting venues for ACL...
+2025-12-16 17:03:29,249 - INFO - Fetching venues from API v1...
+2025-12-16 17:03:29,753 - INFO - Found 3242 venues from API v1
+2025-12-16 17:03:29,754 - INFO - Fetching venues from API v2...
+2025-12-16 17:03:30,455 - INFO - Found 3242 venues from API v2
+2025-12-16 17:03:30,456 - INFO - Total unique venues: 3242
+2025-12-16 17:03:30,457 - INFO - Venues matching years ['2025', '2024', '2023']: 2351
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/PrivTrustNLP
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/SIGTYP
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/SRW_ARR_Commitment
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2024/Workshop/Student_Research
+2025-12-16 17:03:30,457 - INFO - ❓ Other venue for ACL: aclweb.org/StarSEM/2024/ARR_Commitment
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/UncertaiNLP
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/LChange
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/AfricaNLP
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/SICon
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/KnowledgeNLP
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/RepL4NLP_ARR_Commitment
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/MATCHING_ARR_Commitment
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/SICon
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/MOOMIN_ARR_Commitment
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/C3NLP_ARR_Commitment
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/XLLM
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/SRW_Mentorship
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/RepL4NLP
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/WAT_System_Description_Papers
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/ArgMining
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/WikiNLP
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/NLRSE
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/DravidianLangTech
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/CONDA
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/CoNLL
+2025-12-16 17:03:30,457 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/2024/SRW
+2025-12-16 17:03:30,457 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/SDProc
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/SemEval
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/NLP4HR
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/C3NLP
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/ArgMining_ARR_Commitment
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/MOOMIN
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/GeBNLP
+2025-12-16 17:03:30,458 - INFO - ❓ Other venue for ACL: aclweb.org/AACL-IJCNLP/2025/SRW
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/HuCLLM_ARR_Commitment
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/SCI-CHAT_ARR_Commitment
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/SHROOM-CAP
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/SDProc_ARR_Commitment
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/TrustNLP
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/ArgMining_Non-Archival
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/LTEDI
+2025-12-16 17:03:30,458 - INFO - ❓ Other venue for ACL: aclweb.org/StarSEM/2025/ARR_Commitment
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/FEVER
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/REALM
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/QuantumNLP
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/TeachNLP
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/MWE
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/ArgMining
+2025-12-16 17:03:30,458 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/2025/Industry_Track
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/Wordplay
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/SpLU-RoboNLP
+2025-12-16 17:03:30,458 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/2025/SRW
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/ClimateNLP
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/Analogy-ANGLE
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/BHASHA_Non-Archival
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2023/Workshop/Eval4NLP_Shared_Task
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/WASP
+2025-12-16 17:03:30,458 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2023/April
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/SIGHAN-10
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/SciProdLLM_ARR_Commitment
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/AISD
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/RepL4NLP
+2025-12-16 17:03:30,458 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2023/August
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/NLP-AI4Health
+2025-12-16 17:03:30,458 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/Eval4NLP
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/ALVR
+2025-12-16 17:03:30,459 - INFO - ❓ Other venue for ACL: aclweb.org/NAACL/2024/Industry_Track
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/NLP4HR_ARR_Commitment
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/IWCLUL
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/GeBNLP
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/KnowFM
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/JUST-NLP
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2023/Workshop/Eval4NLP
+2025-12-16 17:03:30,459 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2025/May
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/ML4AL
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/WASSA_Shared-Task_1
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/MATCHING
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/SIGSEM/IWCS/2025/Workshop_Proposals
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/SemEval
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/WAT_ARR_Commitment
+2025-12-16 17:03:30,459 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2024/August
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/MAGMaR_Research_and_System_Descriptions
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/WASSA_ARR_Commitment
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/Analogy-ANGLE_ARR_Commitment
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/WASSA_Shared-Task_2
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/KaLLM
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/Field_Matters
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/C3NLP
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/ClimateNLP
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/MAGMaR
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2024/Workshop/HCI-NLP
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/RepL4NLP_ARR_Commitment
+2025-12-16 17:03:30,459 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2023/February
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/ML4AL_ARR_Commitment
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/SCALE-LLM
+2025-12-16 17:03:30,459 - INFO - 🏛️  Conference venue for ACL: aclweb.org/NAACL/2025/Conference
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2023/Workshop/Eval4NLP_Previously_Reviewed
+2025-12-16 17:03:30,459 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2024/October
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/NLP4PosImpact
+2025-12-16 17:03:30,459 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/BHASHA
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/LChange_ARR_Commitment
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/CALD_pseudo_ARR_Commitment
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/KnowledgeLM
+2025-12-16 17:03:30,460 - INFO - 🏛️  Conference venue for ACL: aclweb.org/ACL/2025/Conference
+2025-12-16 17:03:30,460 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2024/February
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2023/Workshop/SIGTYP
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/FEVER_ARR_Commitment
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/SRW
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/L2M2_ARR_Commitment
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/LM4UC
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/Language_and_Molecules
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/C3NLP_ARR_Commitment
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/QueerInAI
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/GEM
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/SMM4H
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/CMCL
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/WAT
+2025-12-16 17:03:30,460 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2023/October
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/SciProdLLM
+2025-12-16 17:03:30,460 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/ClimateNLP_ARR_Commitment
+2025-12-16 17:03:30,461 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/WASSA_Shared_Task
+2025-12-16 17:03:30,461 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/WNUT
+2025-12-16 17:03:30,461 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/Student_Research
+2025-12-16 17:03:30,461 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/CHOMPS_ARR_Commitment
+2025-12-16 17:03:30,461 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/UnImplicit_ARR_Commitment
+2025-12-16 17:03:30,461 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/In2Writing
+2025-12-16 17:03:30,461 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2024/Workshop/Queer_in_AI
+2025-12-16 17:03:30,461 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/Clinical_NLP
+2025-12-16 17:03:30,461 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2024/April
+2025-12-16 17:03:30,461 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/SIGTURK
+2025-12-16 17:03:30,461 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/TextGraphs-17
+2025-12-16 17:03:30,461 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/DialDoc
+2025-12-16 17:03:30,462 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/PrivateNLP
+2025-12-16 17:03:30,462 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/CONDA_ARR_Commitment
+2025-12-16 17:03:30,462 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2024/June
+2025-12-16 17:03:30,462 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/SIGTYP
+2025-12-16 17:03:30,462 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/Eval4NLP_Commitment
+2025-12-16 17:03:30,462 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/WNUT_ARR_Commitment
+2025-12-16 17:03:30,462 - INFO - 🏛️  Conference venue for ACL: aclweb.org/StarSEM/2024/Conference
+2025-12-16 17:03:30,462 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2023/June
+2025-12-16 17:03:30,462 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/DravidianLangTech
+2025-12-16 17:03:30,462 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/GeBNLP_ARR_Commitment
+2025-12-16 17:03:30,462 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/PrivateNLP
+2025-12-16 17:03:30,462 - INFO - 🏛️  Conference venue for ACL: eacl.org/EACL/2024/Conference
+2025-12-16 17:03:30,462 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/L2M2
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/XLLM_Extended_Abstract
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/ArgMining_ARR_Commitment
+2025-12-16 17:03:30,463 - INFO - ❓ Other venue for ACL: aclweb.org/NAACL/2025/Demo_Track
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/BHASHA_ARR_Commitment
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/WSLP_ARR_Commitment
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/FEVER-Shared_Task
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/ConvAI_ARR_Commitment
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/LoResMT
+2025-12-16 17:03:30,463 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2025/February
+2025-12-16 17:03:30,463 - INFO - ❓ Other venue for ACL: aclweb.org/NAACL/2024/Demo_Track
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2024/Workshop/FigLang
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/WSLP
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/BHASHA_Shared_Task
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/TRL
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/RepL4NLP
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/LoResMT
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/CMCL
+2025-12-16 17:03:30,463 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2025/October
+2025-12-16 17:03:30,463 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/2025/Demo
+2025-12-16 17:03:30,463 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/NLP4PosImpact_Commitment
+2025-12-16 17:03:30,463 - INFO - 🏛️  Conference venue for ACL: aclweb.org/StarSEM/2025/Conference
+2025-12-16 17:03:30,463 - INFO - 🏛️  Conference venue for ACL: aclweb.org/NAACL/2024/Conference
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2024/Workshop/NLP-CSS
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2023/Workshop/LoResMT
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/KnowledgeNLP
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/XLLM_ARR_Commitment
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2023/Workshop/SemEval
+2025-12-16 17:03:30,464 - INFO - ❓ Other venue for ACL: aclweb.org/AACL-IJCNLP/2025/ARR_Commitment
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/HuCLLM
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/JUST-NLP_ARR_Commitment
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/ConvAI
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/XLLM_Shared_Task
+2025-12-16 17:03:30,464 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2025/July
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/CMCL_ARR_Commitment
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/WNUT_ARR_Commitment
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/QAI
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2025/Workshop/SDProc
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/UnImplicit
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/SIGTYP
+2025-12-16 17:03:30,464 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/2024/ARR_Commitment
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/MMLoSo
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/ArgMining_PerpectiveArg_Shared_Task
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2023/Workshop/WASSA
+2025-12-16 17:03:30,464 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2024/December
+2025-12-16 17:03:30,464 - INFO - ❓ Other venue for ACL: aclweb.org/NAACL/2025/Industry_Track
+2025-12-16 17:03:30,464 - INFO - ❓ Other venue for ACL: aclweb.org/AACL-IJCNLP/2025/System_Demonstrations
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/CALCS
+2025-12-16 17:03:30,464 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/ARR/2023/December
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/WASSA
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2023/Workshop/FEVER
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/SRW_ARR_Commitment
+2025-12-16 17:03:30,464 - INFO - ❓ Other venue for ACL: aclweb.org/ACL/2024/System_Demonstration_Track
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: eacl.org/EACL/2024/Workshop/UncertaiNLP_ARR_Commitment
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2024/Workshop/Clinical_NLP
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/CHOMPS
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/Eval4NLP_ARR_Commitment
+2025-12-16 17:03:30,464 - INFO - 🔧 Workshop venue for ACL: aclweb.org/AACL-IJCNLP/2025/Workshop/BLP
+2025-12-16 17:03:30,465 - INFO - 🔧 Workshop venue for ACL: aclweb.org/ACL/2024/Workshop/Field_Matters
+2025-12-16 17:03:30,465 - INFO - 🔧 Workshop venue for ACL: aclweb.org/NAACL/2025/Workshop/WNUT
+2025-12-16 17:03:30,465 - INFO - 🎯 Selected 6 Conference venues for ACL
+2025-12-16 17:03:30,465 - INFO - 📊 ACL venue summary: 6 Conference, 167 Workshop, 31 Other
+2025-12-16 17:03:30,465 - INFO - Final venues for conferences ['ACL']: ['aclweb.org/NAACL/2025/Conference', 'aclweb.org/ACL/2025/Conference', 'aclweb.org/StarSEM/2024/Conference', 'eacl.org/EACL/2024/Conference', 'aclweb.org/StarSEM/2025/Conference', 'aclweb.org/NAACL/2024/Conference']
+2025-12-16 17:03:30,465 - INFO - ✅ Found venues for ACL: ['aclweb.org/NAACL/2025/Conference', 'aclweb.org/ACL/2025/Conference', 'aclweb.org/StarSEM/2024/Conference', 'eacl.org/EACL/2024/Conference', 'aclweb.org/StarSEM/2025/Conference', 'aclweb.org/NAACL/2024/Conference']
+2025-12-16 17:03:30,465 - INFO - Getting papers from 6 venues...
+2025-12-16 17:03:31,121 - INFO - Venue: aclweb.org/NAACL/2025/Conference
+2025-12-16 17:03:31,122 - INFO - Number of papers: 0
+2025-12-16 17:03:32,029 - INFO - Venue: aclweb.org/ACL/2025/Conference
+2025-12-16 17:03:32,029 - INFO - Number of papers: 0
+2025-12-16 17:03:32,520 - INFO - Venue: aclweb.org/StarSEM/2024/Conference
+2025-12-16 17:03:32,520 - INFO - Number of papers: 0
+2025-12-16 17:03:33,022 - INFO - Venue: eacl.org/EACL/2024/Conference
+2025-12-16 17:03:33,023 - INFO - Number of papers: 0
+2025-12-16 17:03:33,509 - INFO - Venue: aclweb.org/StarSEM/2025/Conference
+2025-12-16 17:03:33,509 - INFO - Number of papers: 0
+2025-12-16 17:03:34,032 - INFO - Venue: aclweb.org/NAACL/2024/Conference
+2025-12-16 17:03:34,032 - INFO - Number of papers: 0
+2025-12-16 17:03:34,033 - WARNING - ❌ No papers found for ACL
+2025-12-16 17:03:34,033 - INFO - 
+==================================================
+2025-12-16 17:03:34,033 - INFO - Processing EMNLP (9/9)
+2025-12-16 17:03:34,033 - INFO - ==================================================
+2025-12-16 17:03:34,034 - INFO - ⏭️  Existing data found for EMNLP 2023: 88 papers
+2025-12-16 17:03:34,034 - INFO - 📋 Will process years ['2025', '2024'] for EMNLP (skip_existing=True)
+2025-12-16 17:03:34,034 - INFO - Getting venues for EMNLP...
+2025-12-16 17:03:34,034 - INFO - Fetching venues from API v1...
+2025-12-16 17:03:34,578 - INFO - Found 3242 venues from API v1
+2025-12-16 17:03:34,579 - INFO - Fetching venues from API v2...
+2025-12-16 17:03:35,192 - INFO - Found 3242 venues from API v2
+2025-12-16 17:03:35,192 - INFO - Total unique venues: 3242
+2025-12-16 17:03:35,193 - INFO - Venues matching years ['2025', '2024', '2023']: 2351
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/NewSumm
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/NLLP_ARR_Commitment
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2023/Workshop/BLP
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/BlackBoxNLP
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/WiNLP_ARR_Commitment
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/UncertaiNLP
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/CustomNLP4U
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/MathNLP
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/NLP4PI_Direct_Submission
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/NLP4PI_ARR_Commitment
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2023/Workshop/CoNLL-CMCL_Shared_Task/BabyLM_Challenge
+2025-12-16 17:03:35,193 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/UncertaiNLP_ARR_Commitment
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/SiCon
+2025-12-16 17:03:35,194 - INFO - ❓ Other venue for EMNLP: EMNLP/2025/System_Demonstrations
+2025-12-16 17:03:35,194 - INFO - 🏛️  Conference venue for EMNLP: EMNLP/2024/Conference
+2025-12-16 17:03:35,194 - INFO - ❓ Other venue for EMNLP: EMNLP/2025/Industry_Track
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/NLLP
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/PALS_ARR_Commitment
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/BlackboxNLP
+2025-12-16 17:03:35,194 - INFO - ❓ Other venue for EMNLP: EMNLP/2024/Demo_Track
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/SiCon_ARR_Commitment
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/NewSumm_ARR_Commitment
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/BabyLM
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2023/Workshop/LChange
+2025-12-16 17:03:35,194 - INFO - ❓ Other venue for EMNLP: EMNLP/2023/ARR_Commitment
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/MRL
+2025-12-16 17:03:35,194 - INFO - 🏛️  Conference venue for EMNLP: EMNLP/2023/Conference
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/CoNLL_Shared_Task/BabyLM_Challenge
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2023/Workshop/ArgMining-PragTag_Shared_Task
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/BlackBoxNLP_ARR_Commitment
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/PALS
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/FEVER
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/Wordplay
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/NLP4Science
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/BlackboxNLP_Shared_Task
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/CoNLL
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/CoNLL_ARR_Commitment
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/BabyLM_ARR_Commitment
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2023/Workshop/CALCS
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/NLP_for_Wikipedia
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/MRL
+2025-12-16 17:03:35,194 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2023/Workshop/BigPicture
+2025-12-16 17:03:35,195 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/HCI_NLP
+2025-12-16 17:03:35,195 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2023/Workshop/NLP-OSS
+2025-12-16 17:03:35,195 - INFO - 🏛️  Conference venue for EMNLP: EMNLP/2025/Conference
+2025-12-16 17:03:35,195 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/WiNLP
+2025-12-16 17:03:35,195 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/BabyLM_Challenge
+2025-12-16 17:03:35,195 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/BlackboxNLP_ARR_Commitment
+2025-12-16 17:03:35,195 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2024/Workshop/FEVER_AVeriTeC_Shared_Task
+2025-12-16 17:03:35,195 - INFO - 🔧 Workshop venue for EMNLP: EMNLP/2025/Workshop/WiNLP
+2025-12-16 17:03:35,195 - INFO - ❓ Other venue for EMNLP: EMNLP/2024/Industry_Track
+2025-12-16 17:03:35,195 - INFO - 🎯 Selected 3 Conference venues for EMNLP
+2025-12-16 17:03:35,195 - INFO - 📊 EMNLP venue summary: 3 Conference, 43 Workshop, 5 Other
+2025-12-16 17:03:35,195 - INFO - Final venues for conferences ['EMNLP']: ['EMNLP/2024/Conference', 'EMNLP/2023/Conference', 'EMNLP/2025/Conference']
+2025-12-16 17:03:35,195 - INFO - ✅ Found venues for EMNLP: ['EMNLP/2024/Conference', 'EMNLP/2023/Conference', 'EMNLP/2025/Conference']
+2025-12-16 17:03:35,195 - INFO - Getting papers from 3 venues...
+2025-12-16 17:03:35,805 - INFO - Venue: EMNLP/2024/Conference
+2025-12-16 17:03:35,805 - INFO - Number of papers: 0
+2025-12-16 17:03:47,329 - INFO - Venue: EMNLP/2023/Conference
+2025-12-16 17:03:47,330 - INFO - Number of papers: 2009
+2025-12-16 17:03:47,946 - INFO - Venue: EMNLP/2025/Conference
+2025-12-16 17:03:47,947 - INFO - Number of papers: 0
+2025-12-16 17:03:47,947 - INFO - Found 2009 total papers for EMNLP
+2025-12-16 17:03:47,947 - INFO - Applying filters (keywords: ['Agent', 'Data Synthesis', 'Synthetic', 'Trajectory'])...
+2025-12-16 17:03:48,092 - INFO - ✅ 88 papers passed filters for EMNLP
+2025-12-16 17:03:48,092 - INFO - 📄 No papers found for EMNLP 2025
+2025-12-16 17:03:48,092 - INFO - 📄 No papers found for EMNLP 2024
+2025-12-16 17:03:48,092 - INFO - 
+============================================================
+2025-12-16 17:03:48,092 - INFO - Scraping completed successfully!
+2025-12-16 17:03:48,092 - INFO - ============================================================

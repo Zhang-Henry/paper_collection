@@ -1,0 +1,3235 @@
+{
+  "venues": [
+    {
+      "venue": "AAAI.org/2025/Bridge/AI4SC",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/TIKA",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Bridge/AI4Design",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/WMAC",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/AIFinSI",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2023/Spring_Symposium_Series/EDGeS",
+      "conference": "AAAI",
+      "year": "2023",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/AIA",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/LM4Plan",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/SIAI-Redi",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Bridge/CCBridge",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/HCOMP/2023/Workshop/wikiKI",
+      "conference": "AAAI",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/LLM-CP",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/GenAI4Health",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/PDLM",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/Imageomics",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Bridge/Continual_Causality",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/ToM4AI",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/ASEA",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/NeurMAD",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/KnowFM",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/PRL",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/AICT",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2023/Bridge/AICS",
+      "conference": "AAAI",
+      "year": "2023",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/2025/Artificial_Intelligence_for_Social_Impact_Track",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Track"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/AI4UP",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/BDAI",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/PSS",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/MARW",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/SAI",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/AI4ED",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/AI_Alignment_Track",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Track"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/AIBED",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/NuCLeaR",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/XAI4Sci",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/AI4Research",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2023/Workshop/MLmDS",
+      "conference": "AAAI",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Innovative_Applications_of_AI",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/AI4WCN",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2023/Workshop/creativeAI",
+      "conference": "AAAI",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Spring_Symposium_Series/Clinical_FMs",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/2023/Workshop/AI4EW",
+      "conference": "AAAI",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2023/Workshop/AIAFS",
+      "conference": "AAAI",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/AIGOV",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Conference",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Conference"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/CompJobs",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Demonstration_Program",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/EcoSys",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/iRAISE",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/XAI4DRL",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/MarketsGenAI",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/CAIHu",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/GenPlan",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/GoodData",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Bridge/CAIHU",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/2023/Bridge/CCBridge",
+      "conference": "AAAI",
+      "year": "2023",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/PubLLM",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/KG4HEJSS",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/AI4EDU",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2024/Workshop/ML4CMH",
+      "conference": "AAAI",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/DATASAFE",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/SIAI-Redi_SPP",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/CoLoRAI",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Bridge/CogSci-AI_Neuro-Symbolic",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/MALTA",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2025/Workshop/AICS",
+      "conference": "AAAI",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "AAAI.org/2023/Spring_Symposium_Series/ACTD",
+      "conference": "AAAI",
+      "year": "2023",
+      "type": "Other"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/HuMoGen",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2023/Workshop/SSAD",
+      "conference": "CVPR",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/CVEU_Extended_Abstract",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/PBDL",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/POETS_2nd_Round",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/WorldModelBench",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2023/Conference",
+      "conference": "CVPR",
+      "year": "2023",
+      "type": "Conference"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/EquiVision",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/OpenSUN3D",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/DDADS_Track_1",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/CVinW",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/CV4Animals",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/4DV",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/DCAMI_archival",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/SynData4CV",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/V4A",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/TMM-OpenWorld",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/3D-LLM_VLA",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/MAT_Community",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/DD",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/CVEU",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/V4A",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/WDFM-AD",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/MM4Mat",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/POETS",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/H2R",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/VLADR",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/Responsible_Data",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/PBVS",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Conference",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Conference"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/CORR",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/MIV",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/GRAIL",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/DDADS",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/SyntaGen",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/VLMs4All",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/MMFM-BIOMED",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/SynData4CV",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/UnCV",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/MedSAMonLaptop",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/GMCV",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/CV4MR",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop_Proposals",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/VisCon",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/CV4Animals",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2023/Workshop/AI4CC",
+      "conference": "CVPR",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/SyntaGen",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Tutorial",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/ViSCALE",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/RHOBIN",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2023/Workshop/NFVLR",
+      "conference": "CVPR",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/EAI",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/IViSE",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/WAD",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/AGC",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/Humanoid_Agents",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/VideoLLMs",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/HuMoGen",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/EAI",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/DriveX",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/CVDD",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/PVUW",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/DemoDiv",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/MAT",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/EDGE",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/NFBCC",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/CV4MR",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/DCAMI",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/PV",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/AI4CC",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Conference",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Conference"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/BASE",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/MTF",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/MEIS",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/MIV_Proceedings_Track",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2023/Workshop/EAI",
+      "conference": "CVPR",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2024/Workshop/DDADS",
+      "conference": "CVPR",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/Advml",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/MedSegFM",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/FMEA",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2023/Workshop/GCV",
+      "conference": "CVPR",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/EMACS",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/Robo-3Dvlm",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/CVPR/2025/Workshop/EVAL-FoMo-2",
+      "conference": "CVPR",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/DarkSide_of_GenAIs_and_Beyond",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/EVAL-FoMo",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/EEC",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/BIC",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Conference",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Conference"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/AI4VA",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/HCV",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/eXCV_Non-Proceedings",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/Wild3D",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/NFBCC",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/ILR",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/eXCV",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/UnCV",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/ROAM",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/HumanFoundation",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/MAAS",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/DD_Challenge",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/AVGenL",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/W-CODA",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ECCV/2024/Workshop/W-CODA_Abstract_Paper_Track",
+      "conference": "ECCV",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/SP4V",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2023/Workshop/TNGCV_DataComp",
+      "conference": "ICCV",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/Responsible_Imaging_Non-Proceedings",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/MRR",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2023/Workshop/BIC",
+      "conference": "ICCV",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/Wild3D",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/eXCV_Proceedings_Track",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/gDT-IV",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/SEA",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/APAI",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/AISTORY",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/WCLOP",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/ECLR",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/MIPI",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CVAUI-AAMVEM",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CV4E_Non-Archival",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2023/Workshop/TNGCV_General",
+      "conference": "ICCV",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/BiVision",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/RIWM",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/HiGen",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/AMFG",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CV4BIOM",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/FAS",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/HRSIC",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/APAH",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/SAUAFG",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/RetailVision",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/2COOOL_Non-Archival_Track",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/HiCV_Extended_Abstracts",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/E2E3D",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/ESR",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2023/Workshop/CVAAD",
+      "conference": "ICCV",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CDEL_Non-Archival",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CVPM",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/VQualA",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/DRL4Real",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/2COOOL",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/X-Sense",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/MCL",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/SVU",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/DriveX",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CV4E",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/DeepID",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/MARS2",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/3D-VAST",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/HiCV",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CV4DC_Proceedings",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/WDFM-AD",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/MMRAgI",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/HANDS",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/eXCV_Non-Proceedings_Track",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/Responsible_Imaging",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/VLM3D",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/MMFM4",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CVAM",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/LongVid-Foundations",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/FoundGen-Bio",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/LIMIT",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/GAIA",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/MemVis",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/RIWM_Non_Archival",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2023/Workshop/UnCV",
+      "conference": "ICCV",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CV4DC_Non-Proceedings",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Conference",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Conference"
+    },
+    {
+      "venue": "ICCV/2023/Conference",
+      "conference": "ICCV",
+      "year": "2023",
+      "type": "Conference"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CLVision-Non-Archival",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/P13N",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/BIC",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/I-HFM",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CVAMD",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/FAILED",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CroCoDL",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/MIRA",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/NeuSLAM",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CLVision-Proceedings",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/ArtMetrics",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/OpenSUN3D",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/EVW",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/Findings",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/ASI_Non-Archival",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/VADH",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/UniLight",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/WCCA",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/gDT-IV_Non-Archival",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/DC",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/SafeMM-AI",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CV4A11y",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/MMR",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/AI4VA",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/VisionDocs",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/R6D",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/MMFMC",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/CDEL",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/I-HFM_Non-Archival",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/Gen4AVC",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/BISCUIT",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/T2FM",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/DataCV",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/ASI",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/GDUG",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/HiGen_Non_Proceeding_Track",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/U-and-ME",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/LongVid-Foundations_Non-Archival",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/BEW",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/NeVi",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/LSVOS",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/KnowledgeMR",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/HANDS_Non-Proceedings",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2023/Workshop/VIPriors",
+      "conference": "ICCV",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "thecvf.com/ICCV/2025/Workshop/MCL_Non-Proceedings",
+      "conference": "ICCV",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/PrivTrustNLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/SIGTYP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/SRW_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2024/Workshop/Student_Research",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/StarSEM/2024/ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/UncertaiNLP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/LChange",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/AfricaNLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/SICon",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/KnowledgeNLP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/RepL4NLP_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/MATCHING_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/SICon",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/MOOMIN_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/C3NLP_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/XLLM",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/SRW_Mentorship",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/RepL4NLP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/WAT_System_Description_Papers",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/ArgMining",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/WikiNLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/NLRSE",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/DravidianLangTech",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/CONDA",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/CoNLL",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/SRW",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/SDProc",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/SemEval",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/NLP4HR",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/C3NLP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/ArgMining_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/MOOMIN",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/GeBNLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/SRW",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/HuCLLM_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/SCI-CHAT_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/SHROOM-CAP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/SDProc_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/TrustNLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/ArgMining_Non-Archival",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/LTEDI",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/StarSEM/2025/ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/FEVER",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/REALM",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/QuantumNLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/TeachNLP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/MWE",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/ArgMining",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Industry_Track",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Track"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/Wordplay",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/SpLU-RoboNLP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/SRW",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/ClimateNLP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/Analogy-ANGLE",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/BHASHA_Non-Archival",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2023/Workshop/Eval4NLP_Shared_Task",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/WASP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2023/April",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/SIGHAN-10",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/SciProdLLM_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/AISD",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/RepL4NLP",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2023/August",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/NLP-AI4Health",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/Eval4NLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/ALVR",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2024/Industry_Track",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Track"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/NLP4HR_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/IWCLUL",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/GeBNLP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/KnowFM",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/JUST-NLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2023/Workshop/Eval4NLP",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2025/May",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/ML4AL",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/WASSA_Shared-Task_1",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/MATCHING",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/SIGSEM/IWCS/2025/Workshop_Proposals",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/SemEval",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/WAT_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2024/August",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/MAGMaR_Research_and_System_Descriptions",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/WASSA_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/Analogy-ANGLE_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/WASSA_Shared-Task_2",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/KaLLM",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/Field_Matters",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/C3NLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/ClimateNLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/MAGMaR",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2024/Workshop/HCI-NLP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/RepL4NLP_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2023/February",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/ML4AL_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/SCALE-LLM",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Conference",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Conference"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2023/Workshop/Eval4NLP_Previously_Reviewed",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2024/October",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/NLP4PosImpact",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/BHASHA",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/LChange_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/CALD_pseudo_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/KnowledgeLM",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Conference",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Conference"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2024/February",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "eacl.org/EACL/2023/Workshop/SIGTYP",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/FEVER_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/SRW",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/L2M2_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/LM4UC",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/Language_and_Molecules",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/C3NLP_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/QueerInAI",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/GEM",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/SMM4H",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/CMCL",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/WAT",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2023/October",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/SciProdLLM",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/ClimateNLP_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/WASSA_Shared_Task",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/WNUT",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/Student_Research",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/CHOMPS_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/UnImplicit_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/In2Writing",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2024/Workshop/Queer_in_AI",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/Clinical_NLP",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2024/April",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/SIGTURK",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/TextGraphs-17",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/DialDoc",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/PrivateNLP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/CONDA_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2024/June",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/SIGTYP",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/Eval4NLP_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/WNUT_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/StarSEM/2024/Conference",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Conference"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2023/June",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/DravidianLangTech",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/GeBNLP_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/PrivateNLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Conference",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Conference"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/L2M2",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/XLLM_Extended_Abstract",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/ArgMining_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Demo_Track",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Track"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/BHASHA_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/WSLP_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/FEVER-Shared_Task",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/ConvAI_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/LoResMT",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2025/February",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2024/Demo_Track",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Track"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2024/Workshop/FigLang",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/WSLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/BHASHA_Shared_Task",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/TRL",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/RepL4NLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/LoResMT",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/CMCL",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2025/October",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Demo",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/NLP4PosImpact_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/StarSEM/2025/Conference",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Conference"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2024/Conference",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Conference"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2024/Workshop/NLP-CSS",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2023/Workshop/LoResMT",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/KnowledgeNLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/XLLM_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2023/Workshop/SemEval",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/HuCLLM",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/JUST-NLP_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/ConvAI",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/XLLM_Shared_Task",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2025/July",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/CMCL_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/WNUT_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/QAI",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2025/Workshop/SDProc",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/UnImplicit",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/SIGTYP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/MMLoSo",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/ArgMining_PerpectiveArg_Shared_Task",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2023/Workshop/WASSA",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2024/December",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Industry_Track",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Track"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/System_Demonstrations",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/CALCS",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/ARR/2023/December",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Other"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/WASSA",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2023/Workshop/FEVER",
+      "conference": "ACL",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/SRW_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/System_Demonstration_Track",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Track"
+    },
+    {
+      "venue": "eacl.org/EACL/2024/Workshop/UncertaiNLP_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2024/Workshop/Clinical_NLP",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/CHOMPS",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/Eval4NLP_ARR_Commitment",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/AACL-IJCNLP/2025/Workshop/BLP",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/ACL/2024/Workshop/Field_Matters",
+      "conference": "ACL",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "aclweb.org/NAACL/2025/Workshop/WNUT",
+      "conference": "ACL",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/NewSumm",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/NLLP_ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2023/Workshop/BLP",
+      "conference": "EMNLP",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/BlackBoxNLP",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/WiNLP_ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/UncertaiNLP",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/CustomNLP4U",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/MathNLP",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/NLP4PI_Direct_Submission",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/NLP4PI_ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2023/Workshop/CoNLL-CMCL_Shared_Task/BabyLM_Challenge",
+      "conference": "EMNLP",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/UncertaiNLP_ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/SiCon",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/System_Demonstrations",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Other"
+    },
+    {
+      "venue": "EMNLP/2024/Conference",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Conference"
+    },
+    {
+      "venue": "EMNLP/2025/Industry_Track",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Track"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/NLLP",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/PALS_ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/BlackboxNLP",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Demo_Track",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Track"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/SiCon_ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/NewSumm_ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/BabyLM",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2023/Workshop/LChange",
+      "conference": "EMNLP",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2023/ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2023",
+      "type": "Other"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/MRL",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2023/Conference",
+      "conference": "EMNLP",
+      "year": "2023",
+      "type": "Conference"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/CoNLL_Shared_Task/BabyLM_Challenge",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2023/Workshop/ArgMining-PragTag_Shared_Task",
+      "conference": "EMNLP",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/BlackBoxNLP_ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/PALS",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/FEVER",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/Wordplay",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/NLP4Science",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/BlackboxNLP_Shared_Task",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/CoNLL",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/CoNLL_ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/BabyLM_ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2023/Workshop/CALCS",
+      "conference": "EMNLP",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/NLP_for_Wikipedia",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/MRL",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2023/Workshop/BigPicture",
+      "conference": "EMNLP",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/HCI_NLP",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2023/Workshop/NLP-OSS",
+      "conference": "EMNLP",
+      "year": "2023",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Conference",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Conference"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/WiNLP",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/BabyLM_Challenge",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/BlackboxNLP_ARR_Commitment",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Workshop/FEVER_AVeriTeC_Shared_Task",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2025/Workshop/WiNLP",
+      "conference": "EMNLP",
+      "year": "2025",
+      "type": "Workshop"
+    },
+    {
+      "venue": "EMNLP/2024/Industry_Track",
+      "conference": "EMNLP",
+      "year": "2024",
+      "type": "Track"
+    }
+  ],
+  "statistics": {
+    "by_conference": {
+      "AAAI": 66,
+      "CVPR": 84,
+      "ECCV": 20,
+      "ICCV": 110,
+      "ACL": 204,
+      "EMNLP": 51
+    },
+    "by_year": {
+      "2025": 314,
+      "2024": 165,
+      "2023": 56
+    },
+    "by_type": {
+      "Other": 42,
+      "Workshop": 466,
+      "Track": 11,
+      "Conference": 16
+    }
+  }
+}
