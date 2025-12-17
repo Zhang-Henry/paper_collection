@@ -1,14 +1,22 @@
-#!/usr/bin/env python3
-
-import logging
 from scraper import Scraper
 from extract import Extractor
 from filters import title_filter, keywords_filter, abstract_filter
+from selector import Selector
+from utils import save_papers, load_papers
 
-# 只测试ACL
-years = ['2025', '2024', '2023']
-conferences = ['ACL']  # 只测试ACL
-keywords = ['Agent','Data Synthesis','Synthetic','Trajectory']
+
+years = [
+    # '2023'
+    '2025','2024', '2023'
+]
+conferences = [
+    'ICLR','ICML','NeurIPS','AAAI','CVPR','ECCV','ICCV','ACL','EMNLP'
+    # 'ICLR','ICML','NeurIPS'
+
+]
+keywords = [
+    'Agent','Data Synthesis','Synthetic','Trajectory'
+]
 
 def modify_paper(paper):
   paper.forum = f"https://openreview.net/forum?id={paper.forum}"
@@ -36,15 +44,24 @@ def modify_paper(paper):
 # what fields to extract
 extractor = Extractor(fields=['forum'], subfields={'content':['title', 'authors', 'authorids', 'keywords', 'abstract', 'pdf', 'match']})
 
-scraper = Scraper(conferences=conferences, years=years, keywords=keywords, extractor=extractor, fpath='acl_test.csv', fns=[modify_paper], selector=None)
+# if you want to select papers manually among the scraped papers
+# selector = Selector()
+
+# select all scraped papers
+selector = None
+
+scraper = Scraper(conferences=conferences, years=years, keywords=keywords, extractor=extractor, fpath='example.csv', fns=[modify_paper], selector=selector, skip_existing=True)
 
 # adding filters to filter on
 scraper.add_filter(title_filter)
 scraper.add_filter(keywords_filter)
 scraper.add_filter(abstract_filter)
 
-print("=== 专门测试ACL ===")
 scraper()
 
-print("\n=== ACL测试完成 ===")
-print("检查是否在data/目录下生成了ACL文件夹")
+print("\n=== Scraping completed ===")
+print("Data saved to data/ directory organized by conference and year")
+print("Detailed logs saved in logs/ directory")
+
+# Example of loading papers for a specific conference and year
+# saved_papers = load_papers('ICLR', '2024')
