@@ -73,18 +73,28 @@ class SurveyFilter:
         all_papers = []
 
         # Find all papers.csv files
-        csv_files = glob.glob(f"{data_dir}/*/*/papers.csv")
+        # Check if data_dir is a specific conference/year directory
+        if os.path.exists(os.path.join(data_dir, "papers.csv")):
+            csv_files = [os.path.join(data_dir, "papers.csv")]
+        else:
+            csv_files = glob.glob(f"{data_dir}/*/*/papers.csv")
         logger.info(f"Found {len(csv_files)} CSV files to process")
 
         for csv_file in csv_files:
             try:
                 # Extract conference and year from path
                 path_parts = csv_file.split(os.sep)
-                conference = path_parts[-3]
-                year = path_parts[-2]
+                if len(path_parts) >= 3:
+                    conference = path_parts[-3]
+                    year = path_parts[-2]
+                else:
+                    # Handle case where data_dir is the conference/year directory
+                    data_parts = data_dir.split(os.sep)
+                    conference = data_parts[-2] if len(data_parts) >= 2 else "unknown"
+                    year = data_parts[-1] if len(data_parts) >= 1 else "unknown"
 
                 # Read CSV file
-                df = pd.read_csv(csv_file)
+                df = pd.read_csv(csv_file, on_bad_lines='skip', quotechar='"')
 
                 # Process each paper
                 for _, row in df.iterrows():
@@ -162,10 +172,9 @@ Abstract: {abstract}
 Keywords: {keywords}
 
 Evaluation Criteria:
-1. Does this paper involve agents (RL agents, multi-agent systems, autonomous agents)?
+1. Does this paper involve agents (LLM agents, multi-agent systems, autonomous agents)?
 2. Does it involve data synthesis, synthetic data generation, or simulated data?
 3. Is there a connection between agent learning and synthetic/generated data?
-4. Would this paper provide valuable insights for the survey topic?
 
 Please respond with ONLY a JSON object in this exact format:
 {{
@@ -194,6 +203,9 @@ Be strict but thorough in your evaluation. Papers should clearly involve both ag
 
         for paper in papers:
             try:
+                print('Processing paper:', paper['title'])
+                print('Abstract:', paper['abstract'])
+                print('Keywords:', paper.get('keywords', ''))
                 prompt = self.create_evaluation_prompt(
                     paper['title'],
                     paper['abstract'],
@@ -216,7 +228,7 @@ Be strict but thorough in your evaluation. Papers should clearly involve both ag
                 # Parse response
                 try:
                     evaluation = json.loads(response.choices[0].message.content.strip())
-
+                    print('Evaluation:', evaluation)
                     # Add evaluation results to paper
                     paper.update({
                         'gpt_relevant': evaluation.get('relevant', False),
